@@ -24,7 +24,7 @@ module.exports = {
   defaultNetwork: hardhat,
   hardhat: {
     forking: {
-      url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ARCHIVE_NODE}`,
+      url: `${process.env.ARCHIVE_NODE}`,
       blockNumber: 11095000,
       allowUnlimitedContractSize: false,
     }
